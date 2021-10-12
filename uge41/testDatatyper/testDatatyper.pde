@@ -1,14 +1,15 @@
 
+// sæt størrelse på canvas
 void setup(){
-  noLoop();
+  
 }
 
 void draw(){
   
-  testint(37500);
+  println(testint(37500));
 
 }
 
-void testint(int x){
-  println (x);
+int testint(int x){
+  return x+1;
 }

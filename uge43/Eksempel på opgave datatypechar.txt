@@ -1,0 +1,19 @@
+Eksempel på opgave:
+
+datatypen Char, har en angivet maxværdi: 65535
+(https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+
+I mit forsøg, har jeg konstrueret en uendelig løkke. Jeg bruger løkken til at tælle i én op og til at udskrive væredien af char(i);
+
+
+int i =0;
+char achar;
+// jeg plusser med en for at få den sidste værdi med i udskrift
+for (i=0;i<256+1;i++){
+  achar = char(i);
+  println(i," -> ",achar); // udskriv til consol
+}
+
+Jeg oplever, at så snart i>256 udskriver programmet et '?'. Der er altså em uoverensstemmelse mellem den teoretiske maximum værdi og den værdi jeg finder frem til i mit forsøg.
+Den maksimale værdi for datatype char i mit forsøg var 256 hvilket faktisk er antallet af tegn i ASCII tabellen.
+ 

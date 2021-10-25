@@ -3,7 +3,7 @@ Du kender nu til følgende:
 Datatyper:
 	float: kommatal.
 	char: en enkelt karakter.
-	String: et array af char.
+	String: et indexeret række af char. (Tænk på en villa vej med husnumre)
 
 Instruktioner:
 	size(); // sætter størrelsen for canvas

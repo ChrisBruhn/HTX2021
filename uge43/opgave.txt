@@ -66,7 +66,7 @@ charAt() sammen med din tæller i.
 "Dette er en sætning som indeholder mange e'er. Men hvor mange er der?"
 Løkken skal udskrive alle e'er og tilsidst udskrive hvor mange e'er som er fundet.
 
-4) Lav et program som udskriver bogstaverne fra position: 39,19,41,6,4,16,6,4,16,35,95,41,48,95 til skærmen. Brug sætningen "Løkken skal udskrive alle e'er og tilsidst udskrive hvor mange e'er som er fundet. Ja, så er det rigtigt :)"
+4) Lav et program som udskriver bogstavet fra position: 39,19,41,6,4,16,6,4,16,35,95,41,48,95 til skærmen. Brug sætningen "Løkken skal udskrive alle e'er og tilsidst udskrive hvor mange e'er som er fundet. Ja, så er det rigtigt :)"
 5) Lav et program som kan udskrive længden af overstående sætning.
 6) Lav et program som klipper i vores streng. Den skal tage fra position 83 og til slut. Udskriv den nye streng.
 7) Lav et program som klipper i vores streng. Den skal tage fra position 83 og til 85. Udskriv den nye streng.

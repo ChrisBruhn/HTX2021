@@ -39,7 +39,7 @@ while (!found){
 	i++; // tæl i en op
 } 
 
-Hvis vi ikke sætter sand til at være true, så vil løkken køre for evigt. Vi skal altså kunne forudse et tidspunkt, hvor vi kan sætte found til at være sand, for at det er en fordel at bruge en while struktur. Jeg ved, hvis jeg starter med 0 og lægger 1 til, så vil jeg på et tidspunt ramme 9.
+Hvis vi ikke sætter found til at være true, så vil løkken køre for evigt. Vi skal altså kunne forudse et tidspunkt, hvor vi kan sætte found til at være sand, for at det er en fordel at bruge en while struktur. Jeg ved, hvis jeg starter med 0 og lægger 1 til, så vil jeg på et tidspunt ramme 9.
 
 Alternativet er en for-løkke
 For løkker bruger vi når vi ved, hvor mange gange vi skal genneløbe løkken maksimalt. 
@@ -52,12 +52,12 @@ for (int i =0; i<10; i++){
 
 Opgave:
 
-Vi har talt om at string har et index. Hvis vi har en løkke kan vi gennemløbe en streg og se på det enkelte bogstav på i-plads.
+Vi har talt om, at string har et index. Hvis vi har en løkke kan vi gennemløbe en string og se på det enkelte bogstav på i-plads.
 
 Slå op i dokumentationen for processing og læs om string(). Nederst er der en række metoder som kan benyttes sammen med en string. Nå datatype starter med stort bogstav, vil der altid være metoder i kan bruge. Man bruger metoderne sammen med variabel navnet. F.eks. hvis str er defineret som datatype String, så kan man skrive: str.charAt(i);
 
 
-1) Lav henholdsvis en for-løkke og en while-løkken som udskriver den 5 karakter i sætningen "Hej med dig!". Tip, brug 	
+1) Lav henholdsvis en for-løkke og en while-løkken som udskriver de første 5. karakterer i sætningen "Hej med dig!". Tip, brug 	
 charAt() sammen med din tæller i.
 
 2) Lav henholdsvis en for-løkke og en while-løkken som skal gennem løbes 30 gange. Start med i=0; og tæl i op hver gang du løber gennem løkken. Den skal kun udskrive i, når i er mellem værdien 10 til og med 20.

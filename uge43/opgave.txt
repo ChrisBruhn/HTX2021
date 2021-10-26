@@ -12,7 +12,7 @@ metode 2
 int i;
 i++; // tæller i én op
 
-Begge metoder ligger værdien 1 til variablen i. Men hvorfor er det vigtigt at vide, hvordan man ligger 1 til en værdi? Det er det fordi vi bruger en tæller når vi løber igennem en løkke. Den tæller hvor mange gange vi har udført instrutionen. Det kan være smart at bruge i forbindelse med streng operationer. 
+Begge metoder lægger værdien 1 til variablen i. Men hvorfor er det vigtigt at vide, hvordan man lægger 1 til en værdi? Det er det fordi vi bruger en tæller når vi løber igennem en løkke. Den tæller hvor mange gange vi har udført instrutionen. Det kan være smart at bruge i forbindelse med streng operationer. 
 
 Løkker
 Der findes to former for løkker. While og For. 

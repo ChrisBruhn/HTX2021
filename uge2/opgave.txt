@@ -52,10 +52,10 @@ Det er jo lidt dumt at have en klasse som hedder firkant, hvis den tegner en cir
 opgave 6.
 Udvid med en trekant og en rektangel.
 
-opgave 6.
+opgave 7.
 lav så figuerne bliver af variabel størrelse.
 
-opgave 5.
+opgave 8.
 opload dit program til din github.
 
 

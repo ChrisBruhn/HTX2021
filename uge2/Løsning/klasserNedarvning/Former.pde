@@ -28,7 +28,7 @@ class Former {
     len = (int)random(100);
   }
   
-  // metode som skal "Overriding"
+  // metode som skal bruges til at overskrive. Så har alle children den samme metode som jeg kan udskrive
   void drawShape(){}  
 
 }

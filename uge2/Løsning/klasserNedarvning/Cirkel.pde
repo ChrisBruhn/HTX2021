@@ -14,7 +14,12 @@ class Cirkel extends Former{
 
   
   // tegn firkant på canvas
-  void drawCirkel() {
+  // void drawCirkel() {
+    
+    
+    // Alle former har den samme tegne metode som jeg overskriver.
+   
+    void drawShape() {
     
     // henter farve fra super klassen
     fill(r,g,b);

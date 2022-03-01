@@ -1,0 +1,1 @@
+Eksempel med nedarvning og overskrivning af metoder

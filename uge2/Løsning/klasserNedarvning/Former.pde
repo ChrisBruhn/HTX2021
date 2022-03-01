@@ -27,4 +27,8 @@ class Former {
   void generateLen() {
     len = (int)random(100);
   }
+  
+  // metode som skal "Overriding"
+  void drawShape(){}  
+
 }

@@ -13,7 +13,10 @@ class Firkant extends Former {
 
   
   // tegn firkant på canvas
-  void drawFirkant() {
+  //void drawFirkant() {
+    
+        // Alle former har den samme tegne metode som jeg overskriver.
+    void drawShape() {
     
     // henter farve fra super klassen
     fill(r,g,b);

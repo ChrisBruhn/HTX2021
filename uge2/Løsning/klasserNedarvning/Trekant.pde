@@ -8,15 +8,17 @@ class Trekant extends Former {
   }
 
   //metoder
-  
-  void drawTrekant(){
-    fill(r,g,b);
+
+  //void drawTrekant(){
+
+
+  // Alle former har den samme tegne metode som jeg overskriver.
+  void drawShape() {
+    fill(r, g, b);
     push();
-    translate((int)random(width),(int)random(height));
+    translate((int)random(width), (int)random(height));
     rotate(frameCount);
     triangle(0, 0, len, 0, 0, len);
     pop();
-    
-
   }
 }

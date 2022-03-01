@@ -1,2 +1,2 @@
-1,mælk,9.95
-2,kartofler,15.50
+1 /t mælk /t 9.95
+2 /t kartofler /t 15.50

@@ -17,9 +17,17 @@ class View {
 
 
   // Metoder
-  void printMyText(String myText) {
-    
-    text(myText,x,y);
-    
+  
+  void setYValue(float y){
+    this.y=this.y+y;
+  }
+  
+  void printMyText(String myText, float xoffset) {
+    text(myText,x-xoffset,y);
+  }
+  
+  // for at vise hvor midten af skærmen er
+  void midLines(){
+  line(width/2,0,width/2, height);
   }
 }

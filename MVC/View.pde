@@ -6,8 +6,8 @@ class View {
 
   // Construktor
   View(float x, float y) {
-    this.x = x;
-    this.y = y;
+    this.x = x/2;
+    this.y = y/2;
     
     
     fill(0);

@@ -20,7 +20,8 @@ class Model {
   
   
   float calcCenter(String myText){
-    float x = myText.length()/2*20;
+    // 18 skal gerne passe til et bogstavs bredde
+    float x = myText.length()/2*18;
     return x;
   }
 }

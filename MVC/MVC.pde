@@ -17,7 +17,7 @@ void setup() {
 void draw() {
   background(225);
   // initiering af mit view gør jeg her for at nulstille x og y værdi
-  v = new View(width/2, height/2);
+  v = new View(width, height);
   
   // lav data i model
   m.createString();
